@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links and images</title>
+</head>
+<body>
+    <!-- target blank means open url in new tab-->
+    <a href="https://facebook.com" target="_blank">Go to facebook</a><br>
+    <a href="https://google.com" target="_blank">Go to google</a><br>
+    <a href="https://twitter.com" target="_blank">Go to twitter</a><br>
+    <a href="https://linkedin.com" target="_blank">Go to linkedin</a><br>
+    <a href="/tut5.html" target="_blank">tut 5</a><br>
+    <a href="/tut6.html" target="_blank">tut 6</a><br>
+    <!-- image is not present hence alt text is shown -->
+    <img src="arsh.jpg" alt="error loading image">
+    <img src="https://thewowstyle.com/wp-content/uploads/2015/01/nature-images..jpg" alt="remote image" width="200" height="110">
+    <!-- height and width by html is not recommended  -->
+</body>
+</html>
