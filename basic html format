@@ -1,0 +1,15 @@
+<!-- this is doctype  -->
+ <!-- short cut to write a comment is ctrl + / -->
+<!DOCTYPE html>
+<!--"way to write comment" our coding starts here -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>this is title</title>
+</head>
+<body>
+    yeh meri body ka content hai
+</body>
+</html>
