@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <title>tables and lists</title>
+</head>
+
+<body>
+  <ul>
+    <li>this is first item of my unordered list</li>
+    <li>this is second item of my unordered list</li>
+    <li>this is third item of my unordered list</li>
+
+    <ul>
+      <li>another one</li>
+      <li>another two</li>
+      <li>another three</li>
+    </ul>
+
+  </ul>
+  <!-- also type= circle,square,disc -->
+  <ol type="I">
+    <li>this is first item of my unordered list</li>
+    <li>this is second item of my unordered list</li>
+    <li>this is third item of my unordered list</li>
+  </ol>
+  <!-- tables -->
+  <h3>HTML table</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Employee id</th>
+        <th>employee role</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> Arsh </td>
+        <td> 45367 </td>
+        <td> hr </td>
+
+      </tr>
+      <tr>
+        <td> vicky </td>
+        <td> 48753 </td>
+        <td> programmer</td>
+
+      </tr>
+      <tr>
+        <td> raman </td>
+        <td> 43232</td>
+        <td> web development </td>
+
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
