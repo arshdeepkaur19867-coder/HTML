@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>heading paragraph and emmet </title>
+</head>
+<body>
+    <h1>arsh</h1>
+    <h2>arsh</h2>
+    <h3>arsh</h3>
+    <h4>arsh</h4>
+    <h5>arsh</h5>
+    <h6>arsh</h6>
+    <!-- to make adjusting in this way alt+Z or command platee  click on toggle word wrap  -->
+     <!-- write lorem___ any number it will generate that no of words dummy text -->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui tempora accusantium ad <strong>this is strong(bold)</strong> earum possimus consequuntur <em>this is emphasised </em>placeat consectetur fugit dolore <b>this is bold </b>numquam dignissimos nulla vero quos, sapiente, ipsum <i>italic</i>vitae repudiandae voluptates iste.</p>
+    <!-- enter p*__ any number it will generate that no of para. tag -->
+     <!-- to enter new line use br tag -->
+      <!-- html ignores all the spaces  -->
+    <p>first <br> this is new line </p>
+    <p>second <br> <br> <br> <br></p>
+    <p>third</p>
+    <!-- hr is to add line -->
+    <hr>
+    <p>fourth</p>
+    <!-- ctrl+enter to jump into a new line -->
+</body>
+</html>    
