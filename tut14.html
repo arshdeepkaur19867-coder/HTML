@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Selectors</title>
+  <!-- agar hum element selector(p) ka use kare ge tuo sare lines k color change hoga but agar hume ik line ka color change karna hai tuo hume id selector ka use karna hoga or selector ke jagah #id daal do ,,,, agar class use karna hai tuo .class dal do -->
+  <style>
+    /* element selector */
+    p{
+      border: 2px solid  rgb(5, 10, 80);
+    }
+    /* id selector */
+    #firstpara {
+      color: white;
+      background-color: gray;
+    }
+    /* class selector */
+    .bgsalmon{
+      color: white; background-color:salmon;
+    }
+    /* grouping selector */
+    footer,span{
+      color: cadetblue; background-color: bisque;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>CSS selectors</h3>
+  <p id="firstpara" class="plumcolor bggray">This is a simple paragraph to demonstrate css selectors</p>
+  <p id="secondpara" class="whitecolor bgsalmon">This is another simple paragraph to demonstrate css selectors</p>
+  <div>
+    <p>This is yet a simple paragraph inside div to demonstrate css selectors</p>
+    <span>this is span</span>
+    <footer>this is footer</footer>
+  </div>
+</body>
+
+</html>

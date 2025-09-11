@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>pseudo selectors & more designing</title>
+  <style>
+    .container{
+      border: 2px red solid;
+      background-color: aqua;
+      padding:20px;
+      margin:32px auto;
+      width:650px;
+    }
+    a{
+      /* underlin in read more vanished */
+      text-decoration: none;
+    }
+    a:hover{
+      color: rgb(27, 97, 104);
+      font:  black bolder;
+      
+      background-color: rgb(249, 137, 224);
+      
+    }
+    a:visited{
+      background-color: rgb(248, 108, 58);
+
+    }
+    a:active{
+      background-color: rgb(81, 176, 55);
+    }
+    .btn{
+      background-color:rgb(207, 140, 248);
+      padding: 6px;
+      border: none;
+      cursor: pointer;
+      font-size: 14px;
+      border-radius: 4px;
+    }
+    .btn:hover{
+      background-color: cornflowerblue;
+      border: 4px solid black;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container" id="comt1">
+    <h3>this is my heading </h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, modi excepturi magni at iste, dolores quidem alias aliquid dolorem deserunt sed nostrum quas nobis in sint nisi quasi labore quam. Rem similique natus necessitatibus blanditiis dignissimos consectetur enim dolores eligendi amet explicabo voluptas error placeat quia unde modi recusandae, excepturi nobis! Perspiciatis sequi illo minima, vero autem, obcaecati quaerat dolorum maxime iusto enim distinctio quidem nihil. Fugit, suscipit blanditiis?</p>
+    <a href="https://www.google.com" class="btn">Read more</a>
+    <!-- button.btn enter  -->
+    <button class="btn">Contact us</button>
+  </div>
+</body>
+</html>
